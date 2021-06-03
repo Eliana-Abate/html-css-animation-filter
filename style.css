@@ -47,11 +47,12 @@
     width: 60px;
     height: 60px;
     background: red;
-    transition: width 2s linear, height 2s linear;
+    transition: width 2s linear, height 2s linear, margin;
 }
 .ex-5-square:hover {
     width: 100px;
     height: 100px;
+    margin: 0;
 }
 .ex-5-square:active
 
